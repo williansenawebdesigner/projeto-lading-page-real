@@ -42,6 +42,6 @@ LAUNCH.value = inputLaunch;
 // Redirecionar após cadastro
 function redirect(){
     setTimeout(function() {
-    window.location.href = "/ies-parabens-org/";
+    window.location.href = "/parabens-org/";
 }, 1000);
 }
