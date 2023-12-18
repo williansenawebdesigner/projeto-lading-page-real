@@ -18,9 +18,22 @@
                 <img src="/public/images/logotipoies-branca.png" alt="">
                 <h1>Inglês do <span>ZERO à FLUÊNCIA</span> em apenas 6 meses.</h1>
                 <p>Mesmo que você tenha <span>medos, bloqueios e traumas com o inglês!</span></p>
-                <form action="#">
-                    <input class="input-form" placeholder="Insira aqui o seu e-mail" type="text">
-                    <button class="btn-form">ME INSCREVER</button>
+                <form action="https://app.mailingboss.com/lists/657db9091a6e9/subscribe" method="post">
+                    <input class="input-form" placeholder="Insira aqui o seu e-mail" name="EMAIL" type="email">
+                    <input name="HORA" type="text" id="HORA">
+                    <input hidden name="UTM_CONTENT" type="text" id="UTM_CONTENT">
+                    <input hidden name="UTM_MEDIUM" type="text" id="UTM_MEDIUM">
+                    <input hidden name="UTM_SOURCE" type="text" id="UTM_SOURCE">
+                    <input hidden name="UTM_CAMPAIGN" type="text" id="UTM_CAMPAIGN">
+                    <input hidden name="UTM_TERM" type="text" id="UTM_TERM">
+                    <input hidden name="CRIATIVOS" type="text" id="CRIATIVOS">
+                    <input hidden name="ORIGEM" type="text" id="ORIGEM">
+                    <input hidden name="TEMP" type="text" id="TEMP">
+                    <input hidden name="PUBLICO" type="text" id="PUBLICO">
+                    <input hidden name="LAUNCH" type="text" id="LAUNCH">
+
+
+                    <input type="submit" class="btn-form" value="INSCREVER" onclick="redirect()">
                 </form>
             </section>
             <div class="iconflutuante">
@@ -77,6 +90,7 @@
             <p>POLÍTICA DE PRIVACIDADE * TERMOS DE USO</p>
         </div>
     </footer>
+<script type="text/javascript" src="/public/script.js"></script>
 </body>
 
 </html>
